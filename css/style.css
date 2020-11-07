@@ -1,0 +1,490 @@
+body, a, p, li, span, button {
+	font-family: 'Kanit', sans-serif;
+	font-size: 14px;
+	color: #3A4047;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+a {text-decoration: none;}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.wrapper, .flexbox, .contacts, .number, nav, nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+.center {
+	margin: 0 auto;
+	width: 100%;
+}
+.h1text {font-size: 36px;}
+.h2text {font-size: 24px;}
+.h3text {font-size: 16px;}
+.btn {
+	display: inline-block;
+	width: 200px;
+	height: 33px;
+	background: #FFF;
+	border: 1px solid #1AB0CE;
+	box-sizing: border-box;
+	border-radius: 2px;
+	text-align: center;
+	color: #1AB0CE;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0.7px;
+}
+.btn_big {height: 50px;}
+.btn:hover {
+	background: #1AB0CE;
+	color: #FFF;
+}
+.logo {
+	padding-top: 17px;
+}
+.info {
+	padding-top: 17px;
+	width: 375px;
+	text-align: center;
+	line-height: 22px;
+}
+.info .bold {
+	padding-top: 9px;
+	font-weight: 700;
+}
+.contacts {
+	padding-top: 25px;
+	width: 427px;
+}
+.social {
+	width: 343px;
+}
+.email {
+	padding-top: 3px;
+}
+.shopping-cart {
+	background: url(../img/shopping-cart.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 82px;
+	height: 66px;
+}
+.shopping-cart a {
+	position: absolute;
+	padding-top: 3px;
+	padding-left: 53px;
+}
+.shopping-cart div {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	background: #1AB0CE;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+}
+.number {
+	width: 215px;
+	margin-top: 21px;
+	margin-left: auto;
+}
+.number .icon {
+	padding-right: 8px;
+}
+.number a {
+	font-weight: 700;
+	letter-spacing: 0.6px;
+	padding-bottom: 20px;
+}
+header .tel-popup {
+	position: absolute;
+	margin-left: 136px;
+	background: #fff
+}
+.tel-popup-content {
+	padding: 20px 30px;
+	width: 221px;
+	line-height: 41px;
+	letter-spacing: 0.3px;
+	border: 2px solid #ddd;
+}
+.tel-popup-content .icon {
+	vertical-align: middle;
+}
+nav {
+	height: 57px;
+}
+nav ul {
+	width: 1100px;
+	margin: auto 0;
+}
+nav a {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: auto 0;
+}
+.searchbox {
+	position: absolute;
+	background: #fff;
+	width: 1100px;
+}
+.searchbox input {
+	width: 1130px;
+	height: 57px;
+	border: 3px solid #ccc;
+	border-radius: 10px;
+	text-indent: 10px;
+	font-size: 18px;
+}
+.order {
+	background: url(../img/office.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.order h1 {
+	font-size: 57px;
+	margin-top: 166px;
+	letter-spacing: 1.4px;
+}
+.order p {
+	color: #fff;
+	margin-top: 39px;
+}
+.order .btn {
+	background: #1AB0CE;
+	color: #fff;
+	margin-top: 23px;
+	margin-bottom: 140px;
+}
+.order .btn:hover {
+	background: #fff;
+	color: #1AB0CE;
+}
+.products h2 {
+	text-align: center;
+	margin-top: 37px;
+}
+.products .flexbox {
+	width: auto;
+}
+.products .box {
+	background: #FFFFFF;
+	border: 1px solid #DCE1E6;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+	width: 370px;
+	height: 291px;
+	margin-top: 45px;
+}
+.products img {position: absolute;}
+.products .img1 {margin: 24px 0px 0px 26px;}
+.products .img2 {margin: 24px 0px 0px 31px;}
+.products .img3 {margin: 24px 0px 0px 36px;}
+.products h3 {
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 26px;
+	margin-left: 115px;
+}
+.products ul {
+	margin-top: 14px;
+	margin-left: 115px;
+}
+.products li {
+	line-height: 36px;
+}
+.products .box .flexbox {
+	margin-top: 0px;
+	margin-left: 115px;
+	width: 195px;
+}
+.products .box .flexbox ul {
+	margin-left: 0px;
+}
+.about h2 {
+	text-align: center;
+	margin-top: 41px;
+}
+.about h3 {
+	text-align: center;
+	margin-top: 20px;
+}
+.about p {
+	margin-top: 32px;
+	margin-bottom: 39px;
+	line-height: 19px;
+}
+.news {
+	border: 1px solid #E8EDF2;
+}
+.news h2 {
+	text-align: center;
+	margin-top: 41px;
+}
+.news .flexbox {
+	margin-top: 31px;
+}
+.news .box {
+	width: 398px;
+	height: 170px;
+	margin-top: 52px;
+}
+/*.news .box:hover {
+	box-shadow: 0px -1px 0px #1AB0CE, 0px 14px 24px rgba(0, 0, 0, 0.05);
+	color: #1AB0CE;
+	text-decoration-line: underline #1AB0CE;
+}*/
+.news p {
+	text-align: center;
+}
+.news .date {
+	color: #BEC7D1;
+	text-decoration-line: none;
+	margin-top: 31px;
+}
+.news .h3text {
+	position: absolute;
+	width: 385px;
+	height: 170px;
+	line-height: 22px;
+	margin-top: -46px;
+	padding-top: 61px;
+}
+.news .h3text:hover {
+	box-shadow: 0px -1px 0px #1AB0CE, 0px 14px 24px rgba(0, 0, 0, 0.05);
+	color: #1AB0CE;
+	text-decoration-line: underline;
+}
+.news .watch_all {
+	text-align: center;
+	margin: 19px auto 50px auto;
+}
+.news .watch_all a {
+	line-height: 31px;
+}
+footer {
+	background: url(noise-good.png), #F7F7F7;
+	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+footer .logo {
+	padding-top: 16px;
+}
+footer .logo p {
+	margin-top: 15px;
+}
+footer .description {
+	width: 300px;
+	letter-spacing: -0.35px;
+	padding-top: 25px;
+	margin-left: 35px;
+	line-height: 21px;
+}
+footer .schedule {
+	padding-top: 18px;
+}
+footer .lists {
+	width: 280px;
+	margin-top: 17px;
+	margin-left: 25px;
+	letter-spacing: -0.3px;
+	line-height: 38px;
+}
+footer .number {
+	padding-top: 6px;
+	margin-left: 55px;
+}
+footer .tel-popup {
+	position: absolute;
+	background: #fff;
+	margin-top: -104px;
+	margin-left: 10px;
+}
+footer .dev {
+	text-align: right;
+	font-size: 14px;
+	margin-top: -4px;
+}
+footer .glyanec {
+	padding-top: 36px;
+}
+/*Adaptiveness*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.searchbox {
+		width: 900px;
+	}
+	.searchbox input {
+		width: 900px;
+	}
+	nav {
+		width: 98%;
+	}
+	nav ul {
+		width: 900px;
+	}
+	.order {
+		background-size: contain;
+	}
+	.order h1 {
+	  font-size: 42px;
+	  margin-top: 52px;
+	}
+	.order p {
+	  margin-top: 21px;
+	}
+	.news .box {
+		width: 322px;
+	}
+	.news .h3text {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper, nav, nav ul {
+		flex-direction: column;
+		text-align: center;
+	}
+	div {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.info {
+		width: auto;
+	}
+	.shopping-cart a {
+		padding-left: 10px;
+	}
+	nav {
+		height: auto;
+	}
+	nav ul {
+		width: auto;
+		line-height: 50px;
+	}
+	nav a {
+		line-height: 50px;
+	}
+	.searchbox {
+		width: 700px;
+		margin-top: 300px;
+	}
+	.searchbox input {
+		width: 100%;
+	}
+	.order {
+		background-size: cover;
+	}
+	.order h1 {
+		font-size: 33px;
+		margin-top: 22px;
+	}
+	.order .btn {
+		margin-bottom: 30px;
+	}
+
+	.products .box {
+		width: 225px;
+		height: auto;
+	}
+	.products .box .flexbox {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.products img {position: relative;}
+	.products .img1 {margin: 10px;}
+	.products .img2 {margin: 10px;}
+	.products .img3 {margin: 10px;}
+	.products h3, .products ul {
+		margin-top: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.products h3, .products ul {
+		margin-right: 0;
+	}
+	.news .box {width: 230px;}
+	.news .h3text {width: 230px;}
+	footer .logo {padding-top: 0;}
+	footer .logo img {transform: scale(0.5);}
+	footer .logo p {margin-top: 0; width: auto;}
+	footer .description {margin: 0; width: auto;}
+	footer .lists {
+		margin: 0;
+		width: auto;
+		justify-content: space-around;
+	}
+	footer .tel-popup {
+		margin-top: -350px;
+		margin-left: 70px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	nav {
+		align-items: center;
+	}
+	.searchbox {
+		width: 500px;
+	}
+	.products .box .flexbox {
+		justify-content: space-around;
+	}
+	.news .box {width: 170px;}
+	.news .h3text {width: 170px;}
+}
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	div {
+		flex-direction: column;
+	}
+	.contacts {width: 100%}
+	.social {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.social .flexbox {line-height: 30px;}
+	header .tel-popup {
+		margin-top: 240px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.number, .shopping-cart, .products .box, .news .box {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.shopping-cart {
+		position: absolute;
+		top: 110px;
+		left: 100px;
+		right: 0%;
+	}
+	.contacts, .shopping-cart div {position: relative;}
+	.searchbox {width: 90%;}
+	.about p {
+		text-align: justify;
+		margin-bottom: 20px;
+	}
+	.news h2 {margin-top: 20px;}
+	.news .flexbox {margin-top: 0;}
+	.news .box {width: 280px;}
+	.news .h3text {width: 280px;}
+	footer .number {margin-left: auto;}
+	footer .tel-popup {
+		margin-left: 25px;
+		margin-right: 0%;
+	}
+}
